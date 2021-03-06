@@ -50,7 +50,7 @@ void ListPint(LinkList head)
 int ListInsert(LinkList head,int i,ElemType e)
 {
     LinkList p=head;
-    LiskList s;
+    LinkList s;
     int j;
     p=p->next;
     for(j=1;j<i-1;j++)
